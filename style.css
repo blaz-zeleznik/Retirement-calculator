@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: "Press Start 2P", sans-serif;
+    padding: 100px 0px;
+    text-align: center;
+}
+h1{
+    margin: 40px 0px;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 6px 12px;
+    border-radius: 10px;
+    width: 100%;
+}
+h1:hover{
+   transform: rotate(2deg);
+   transform-origin: center;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+#btn:hover{
+    background-color: green;
+    color: #fff;
+}
+#btn:active{
+    transform: scale(0.98);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+   
+}
+h3{
+    color: red;
+    font-size: 14px;
+    margin: 4px 0px;
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-family: inherit;
+}
+hr{
+    width: 100%;
+}
+.remove{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+.remove:active{
+    transform: scale(0.98);
+}
+input[type=text]{
+    padding: 6px 16px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+
+}
+input[type=number]{
+    padding: 6px 16px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+
+}
+label{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+span{
+    color: green;
+}
